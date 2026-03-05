@@ -59,10 +59,9 @@
 
   <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:hello@flyphillyfly.com">hello@flyphillyfly.com</a> (placeholder)</p>
+      <p>Email: <a href="mailto: zeropoint022@.com">hello@flyphillyfly.com</a> (placeholder)</p>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="container">
       <small>© <span id="year"></span> Fly Philly Fly. All rights reserved.</small>
