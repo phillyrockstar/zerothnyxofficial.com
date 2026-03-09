@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>zeropoint</title>
+  <title>zerothnyx</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav">
-      <div class="brand">ZEROPOINT</div>
+      <div class="brand">Zerothnyx</div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -60,12 +60,13 @@
 
   <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto: zeropoint022@.com">hello@flyphillyfly.com</a> (placeholder)</p>
+      <p>Email: <a href="mailto: zerothynx022@.com">hello@flyphillyfly.com</a> (placeholder)</p>
     </section>
   </main>
   <footer class="site-footer">
     <div class="container">
-      <small>© <span id="year"></span> ZEROPOINT. All rights reserved.</small>
+       
+<small>© <span id="year"></span> ZEROTHNYX. All rights reserved.</small>
     </div>
   </footer>
 
