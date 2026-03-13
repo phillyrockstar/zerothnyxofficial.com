@@ -1,4 +1,4 @@
-# zeropoint.github.io
+# Zerothnyx.GitHubb.io
 <!doctype html>
 <html lang="en">
 <head>
@@ -60,7 +60,7 @@
 
   <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto: zerothynx022@.com">hello@flyphillyfly.com</a> (placeholder)</p>
+      <p>Email: <a href="mailto: zerothynx022@.com">zerothnyxofficial.com</a> (placeholder)</p>
     </section>
   </main>
   <footer class="site-footer">
