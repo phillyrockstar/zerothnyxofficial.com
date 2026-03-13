@@ -39,9 +39,9 @@
       </div>
     </section>
 
-    <section id="vision" class="section">
+   <section id="vision" class="section">
       
-      <div class="container">
+   <div class="container">
         <h2>The Vision</h2>
         <p>
           This is not about hype. It is about building disciplined research,
@@ -54,7 +54,7 @@
       </div>
     </section>
 
-    <section id="projects" class="section">
+   <section id="projects" class="section">
       <div class="container">
         <h2>Core Projects</h2>
         <div class="cards">
@@ -66,7 +66,7 @@
             </p>
           </article>
 
-          <article class="card">
+ <article class="card">
             <h3>Power Systems R&amp;D</h3>
             <p>
               Battery research, thermal management concepts, and energy-system modeling
@@ -74,7 +74,7 @@
             </p>
           </article>
 
-          <article class="card">
+   <article class="card">
             <h3>Materials Index</h3>
             <p>
               A structured library of materials, tradeoffs, sourcing realities,
@@ -82,7 +82,7 @@
             </p>
           </article>
 
-          <article class="card">
+  <article class="card">
             <h3>Fly Philly Fly</h3>
             <p>
               A long-term vision exploring personal mobility, safety-first design,
@@ -93,7 +93,7 @@
       </div>
     </section>
 
-    <section id="updates" class="section">
+ <section id="updates" class="section">
       <div class="container">
         <h2>Current Status</h2>
         <ul class="updates">
@@ -105,20 +105,9 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
+   <section id="contact" class="section">
       <div class="container">
         <h2>Contact</h2>
         <p>Email: contact@zerothnyxofficial.com <span class="muted">(coming soon)</span></p>
       </div>
     </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> ZEROTHNYX. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
