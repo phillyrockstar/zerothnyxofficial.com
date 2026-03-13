@@ -6,7 +6,8 @@
   <title>
   ZerothNyx | Street-Futuristic Guardian Energy </title>
   
-<meta name="description" content="ZerothNyx is a future-facing innovation brand exploring safer mobility, AI-assisted protection, advanced materials, and human-centered technology." />
+<meta name="description" content="ZerothNyx is a future-facing innovation brand exploring safer mobility, AI-assisted protection, advanced materials, and human-centered technology
+including air transport technology safer exploration through the air." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -85,10 +86,20 @@
           </article>
 
   <article class="card">
-            <h3>Fly Philly Fly</h3>
+            <h3>"Zerothnyx" what do it mean? </h3>
             <p>
-              A long-term vision exploring personal mobility, safety-first design,
-              and technology that helps people rise.
+              Zerothnyx is place into 3 parts 
+              Zero- in computer programming programs language read, binary numbers to commute the understanding and execution of the task
+                    "The start of zero is the beginning of creation"
+              zeroth- a corresponding zero placeholder to the next 
+              nyx - a greek mythology of "night" the beginning of creation itself 
+              
+              <article class=" card"> 
+                <h3> "what are we about"? </h3>
+                <p> 
+                  A long-term vision  project to exploring personal mobility, safety-first design,
+              and technology that helps people rise and think differently. I believe that we are here to create and 
+              experience. "ZEROTHNYX IS THE FUTURE OF TRUTH OF CREATION "
             </p>
           </article>
         </div>
