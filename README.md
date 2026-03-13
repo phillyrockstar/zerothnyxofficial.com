@@ -4,8 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>
-    
-    ZerothNyx | Street-Futuristic Guardian Energy </title>
+  ZerothNyx | Street-Futuristic Guardian Energy </title>
   <meta name="description" content="ZerothNyx is a future-facing innovation brand exploring safer mobility, AI-assisted protection, advanced materials, and human-centered technology." />
   <link rel="stylesheet" href="style.css" />
 </head>
