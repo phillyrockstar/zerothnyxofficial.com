@@ -85,26 +85,35 @@ including air transport technology safer exploration through the air." />
             </p>
           </article>
 
-  <article class="card">
-            <h3>"Zerothnyx" what do it mean? </h3>
-            <p>
-              Zerothnyx is place into 3 parts 
-              Zero- in computer programming programs language read, binary numbers to commute the understanding and execution of the task
-                    "The start of zero is the beginning of creation"
-              zeroth- a corresponding zero placeholder to the next 
-              nyx - a greek mythology of "night" the beginning of creation itself 
-              
-            <article class="card"> 
-              <h3> "what are we about"?</h3>
-              <p> 
-              A long-term vision  project to exploring personal mobility, safety-first design,
-              and technology that helps people rise and think differently. I believe that we are here to create and 
-              experience. "ZEROTHNYX IS THE FUTURE OF TRUTH OF CREATION "
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
+  <section id="meaning" class="section">
+  <div class="container">
+    <h2>What “ZerothNyx” Means</h2>
+
+    <p>
+      ZerothNyx is a name built in layers. “Zero” reflects the foundation of computing,
+      binary logic, and the idea that creation often begins from nothing — the starting point.
+      “Zeroth” represents origin, the base layer, the first principle before what comes next.
+      “Nyx,” drawn from Greek mythology, represents night — not as emptiness, but as the space
+      where creation begins, where vision forms before it becomes real.
+    </p>
+
+    <p>
+      Together, ZerothNyx represents a beginning: the meeting point between technology,
+      imagination, discipline, and future creation.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <h3>What are we about?</h3>
+        <p>
+          ZerothNyx is a long-term vision focused on innovation, protection, advanced technology,
+          and ideas that help people rise. It is about building with purpose, learning in public,
+          and turning imagination into disciplined progress.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
 
  <section id="updates" class="section">
       <div class="container">
