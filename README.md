@@ -97,7 +97,7 @@ including air transport technology safer exploration through the air." />
       where creation begins, where vision forms before it becomes real.
     </p>
     
-    <p>
+  <p>
       Together, ZerothNyx represents a beginning: the meeting point between technology,
       imagination, discipline, and future creation.
     </p>
