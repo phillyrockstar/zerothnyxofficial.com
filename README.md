@@ -89,14 +89,14 @@ including air transport technology safer exploration through the air." />
   <div class="container">
     <h2>What “ZerothNyx” Means</h2>
 
-    <p>
+  <p>
       ZerothNyx is a name built in layers. “Zero” reflects the foundation of computing,
       binary logic, and the idea that creation often begins from nothing — the starting point.
       “Zeroth” represents origin, the base layer, the first principle before what comes next.
       “Nyx,” drawn from Greek mythology, represents night — not as emptiness, but as the space
       where creation begins, where vision forms before it becomes real.
     </p>
-
+    
     <p>
       Together, ZerothNyx represents a beginning: the meeting point between technology,
       imagination, discipline, and future creation.
