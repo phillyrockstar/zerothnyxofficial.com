@@ -23,7 +23,7 @@
   --accent: #7cc7ff;
 }
 
-* {
+ {
   box-sizing: border-box;
 }
 
@@ -178,4 +178,14 @@ footer {
   color: var(--text-muted);
   border-top: 1px solid var(--line);
   margin-top: 40px;
+}
+.section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
