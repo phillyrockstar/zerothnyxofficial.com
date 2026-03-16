@@ -172,3 +172,10 @@ h2 {
   padding: 24px 0 40px;
   color: var(--muted);
 }
+footer {
+  text-align: center;
+  padding: 24px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--line);
+  margin-top: 40px;
+}
