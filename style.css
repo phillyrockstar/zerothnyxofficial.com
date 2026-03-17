@@ -59,17 +59,26 @@ a {
 }
 
 .nav {
-  max-width: var(--max);
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 14px 24px;
+  padding: 18px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 24px;
+  }
+  brand wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
 }
-  brand {
-  font-weight: 800;
-  letter-spacing: 0.08em;
+.brand {
+  position: relative;
+  font-size: clamp(1.5rem, 2.6vw, 2.4rem);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  color: #f3f6ff;
+  z-index: 2;
 }
 
 .nav-links a {
