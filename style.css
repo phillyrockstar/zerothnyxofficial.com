@@ -54,8 +54,9 @@ a {
   top: 0;
   z-index: 50;
   backdrop-filter: blur(14px);
-  background: rgba(5, 8, 18, 0.65);
+  background: rgba(10, 10, 18, 0.55);
   border-bottom: 1px solid var(--line);
+  z-index: 1000;
 }
 
 .nav {
