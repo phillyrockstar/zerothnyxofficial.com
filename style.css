@@ -113,6 +113,7 @@ a {
   }
 
 .nav-links a {
+  list-style: none;
   color: #f3f6ff;
   text-decoration: none;
   opacity: 0.88;
