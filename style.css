@@ -349,7 +349,9 @@ letter-top: 0.5px;
 }.
 
 /* MOBILE ADJUSTMENTS */
-@media (max-width: 768px) {
+@media 
+( width: 100%) 
+(max-width: 1100px) {
 
   .nav {
     align-items: flex-start;
