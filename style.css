@@ -39,9 +39,33 @@ body {
   line-height: 1.2;
 }
 
-a {
+a {a {
   color: var(--accent);
   text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px var(--accent), 0 0 16px var(--accent);
+}
+
+/* Underline animation */
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
 }
 
 .container {
