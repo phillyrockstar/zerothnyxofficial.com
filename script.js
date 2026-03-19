@@ -20,8 +20,3 @@ function revealSections() {
 
 window.addEventListener("scroll", revealSections);
 window.addEventListener("load", revealSections);
-/* portal */
-
-const portalButtons = document.querySelectorAll(".portal-btn");
-const panels = document.querySelectorAll(".portal-panel");
-
