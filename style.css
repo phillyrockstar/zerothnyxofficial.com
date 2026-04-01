@@ -54,13 +54,22 @@ a {
   margin: 0 auto;
 }
 /* introduction page */
-  .site-header {
+* {
+  box-sizing: border-box;
+}
+
+.site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(12px);
-  background: rgba(10, 10, 18, 0.55);
+  background: rgba(5, 6, 14, 0.78);
   border-bottom: 1px solid rgba(166, 76, 255, 0.18);
+}
+
+.container {
+  width: min(100% - 32px, var(--max));
+  margin: 0 auto;
 }
 
 .nav {
@@ -71,46 +80,79 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  }
-  .brand wrap {
+}
+
+.brand-wrap {
   position: relative;
   display: inline-flex;
   align-items: center;
 }
+
 .brand {
   position: relative;
-  font-size: clamp(1.5rem, 2.6vw, 2.4rem);
-  font-weight: 900;
-  letter-spacing: 0.12em;
-  color: #f3f6ff;
   z-index: 2;
+  font-size: clamp(1.6rem, 2.5vw, 2.5rem);
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  color: #f3f6ff;
+}
+
+.brand-smoke {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  width: 180px;
+  height: 70px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(166, 76, 255, 0.30), transparent 38%),
+    radial-gradient(circle at 45% 40%, rgba(120, 60, 220, 0.22), transparent 42%),
+    radial-gradient(circle at 72% 58%, rgba(190, 120, 255, 0.16), transparent 46%);
+  filter: blur(16px);
+  animation: brandSmokeFlow 6s ease-in-out infinite alternate;
+}
+
+@keyframes brandSmokeFlow {
+  0% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 0.45;
+  }
+  50% {
+    transform: translateY(-50%) translateX(10px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(-50%) translateX(22px);
+    opacity: 0.38;
+  }
+}
+
+.nav-links,
+.nav-links li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links {
   display: flex;
   gap: 18px;
   align-items: center;
-}
-/* starting page */
-.hero {
-  min-height: 70vh;
-  display: grid;
-  align-items: center;
-}
-.hero {
-max-width: 900px;
-margin: auto;
-padding-top: 120px;
-}
-.hero-content {
-  padding: 80px 0;
+  flex-wrap: wrap;
 }
 
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: 0.82rem;
-  color: var(--muted);
+.nav-links a {
+  color: #f3f6ff;
+  text-decoration: none;
+  opacity: 0.88;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #a64cff;
+  text-shadow: 0 0 10px rgba(166, 76, 255, 0.55);
 }
 
 h1 {
@@ -171,9 +213,9 @@ h2 {
   transitions: all 0.3s ease;
 }
 .card:hover { 
-transform: translateY (-6px) ;
-border--color: var (--accent);
-box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  transform: translateY (-6px) ;
+  border--color: var (--accent);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
 
 .updates {
@@ -208,15 +250,35 @@ footer {
 }
 
 .status {
-font-size: 0.85rem;
-color: var (--muted);
-margin-top: 12px;
-letter-top: 0.5px;
+  font-size: 0.85rem;
+  color: var (--muted);
+  margin-top: 12px;
+  letter-top: 0.5px;
 }
 /* UV accent */
 :root {
   --uv: #a64cff;
 }
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
 
+  .brand {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .brand-smoke {
+    width: 120px;
+    height: 50px;
+    left: 42%;
+  }
+}
 
 
